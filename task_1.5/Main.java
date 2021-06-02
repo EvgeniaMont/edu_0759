@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
       Scanner temp = new Scanner(System.in);
       int tc = temp.nextInt();
-      int tf = 9/5*tc+32;
+      double tf = 1.8*tc + 32;
       System.out.println(tf);
     }
-}// я не понимаю как работать после ввода программы
+}

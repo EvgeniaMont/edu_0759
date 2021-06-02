@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
         int a, b;
         String s;
-        a=6;
-        b=14;
-        s=9;
+        a = 6;
+        b = 14;
+        s = "sun";
     }
 }

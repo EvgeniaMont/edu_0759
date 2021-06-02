@@ -11,11 +11,14 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        Scanner V = new Scanner(System.in);
-        int a = V.nextInt();
-        int b = V.nextInt();
-        int c = V.nextInt();
-        int L = a*b*c*1000
-        System.out.println(L);
+        Scanner v = new Scanner(System.in);
+        System.out.print("Введите длину бассейна: ");
+        int a = v.nextInt();
+        System.out.print("Введите ширину бассейна: ");
+        int b = v.nextInt();
+        System.out.print("Введите глубину бассейна: ");
+        int c = v.nextInt();
+        int l = a*b*c*1000;
+        System.out.println("Количество воды для наполнения, литр: "+l);
     }
 }

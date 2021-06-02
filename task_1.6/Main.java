@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int A = scan.nextInt();
-        int B = A*1.15;
+        double B = A*1.15;
         System.out.println(B);
     }
 }
