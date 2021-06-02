@@ -8,9 +8,14 @@
 250000 */
 
 
-
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        //Ваш код
+        Scanner V = new Scanner(System.in);
+        int a = V.nextInt();
+        int b = V.nextInt();
+        int c = V.nextInt();
+        int L = a*b*c*1000
+        System.out.println(L);
     }
 }

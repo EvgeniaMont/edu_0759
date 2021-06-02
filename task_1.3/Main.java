@@ -3,6 +3,10 @@
 
 public class Main {
     public static void main(String[] args) {
-        //напишите тут ваш код
+        int a, b;
+        String s;
+        a=6;
+        b=14;
+        s=9;
     }
 }
