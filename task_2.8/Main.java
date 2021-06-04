@@ -3,8 +3,12 @@
 */
 
 public class Main {
-    public static void main(String[] args) {
-        //напишите тут ваш код
-
+    public static void main (String[] args) {
+        int[] arr = {2,3,4,5};
+        int pro = 1;
+        for (int i=0; i<4; i++) {
+            pro*=arr[i];
+        }
+        System.out.println (pro);
     }
 }
