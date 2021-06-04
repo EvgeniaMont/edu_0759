@@ -14,10 +14,16 @@ name типа String, age типа int и city типа String.
 */
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         String name;
         int age;
         String city;
+        name = "Jane";
+        age = 32;
+        city = "Paris";
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(city);
     }
 }
 // покажите, пожалуйста, как передать это в get
