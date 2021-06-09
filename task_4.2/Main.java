@@ -14,11 +14,28 @@
 
 public class Main {
     public static void main(String[] args) {
-
+        Dog dog = new Dog();
+        dog.setName("Рекс");
+        System.out.println(dog.getName());
+        dog.setAge(4);
+        System.out.println(dog.getAge());
     }
 }
 
-public class Dog {
-    //напишите тут ваш код
+class Dog {
+    String name = "Рекс";
+    int age = 4;
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+    public int getAge(){
+        return age;
+    }
+    public void setAge(int age){
+        this.age = age;
+    }
 }
 

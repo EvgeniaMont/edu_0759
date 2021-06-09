@@ -18,8 +18,14 @@ interface Animal {
     Color getColor();
 }
     
-class Fox {
+class Fox implements Animal {
+    String color;
+    Fox (String color) {
+        this.color=color;
+    }
     public String getName() {
         return "Fox";
     }
+
+    public Color getColor() { return null; }
 }
